@@ -1,0 +1,75 @@
+﻿									<meta charset="utf-8" />
+									
+									<div class="col-xs-12 col-sm-9">
+											
+
+										<div class="space-12"></div>
+
+											<div class="profile-user-info profile-user-info-striped">
+											<foreach name="data" item="vo">
+												<div class="profile-info-row">
+													<div class="profile-info-name"> 用户名 </div>
+
+													<div class="profile-info-value">
+														<span class="editable" id="username"><{$vo.UserID}></span>
+													</div>
+												</div>
+
+												
+
+												
+
+												<div class="profile-info-row">
+													<div class="profile-info-name"> 联系方式</div>
+
+													<div class="profile-info-value">
+														<span class="editable" id="about"><{$vo.phone}></span>
+													</div>
+												</div>
+												<div class="profile-info-row">
+													<div class="profile-info-name"> 邮箱地址</div>
+
+													<div class="profile-info-value">
+														<span class="editable" id="about"><{$vo.email}></span>
+													</div>
+												</div>
+												
+
+												<div class="profile-info-row">
+													<div class="profile-info-name"> 座右铭 </div>
+
+													<div class="profile-info-value">
+														<span class="editable" id="about"><{$vo.motto}></span>
+													</div>
+												</div>
+												<div class="profile-info-row">
+													<div class="profile-info-name"> 地址 </div>
+
+													<div class="profile-info-value">
+														
+													
+														<span class="editable" id="country"><{$vo.pro}></span>
+														<span class="editable" id="city"><{$vo.city}></span>
+														<i class="icon-map-marker light-orange bigger-110"></i>
+													</div>
+												</div>
+											</div>
+
+											<div class="space-20"></div>
+
+											
+											<div class="hr hr2 hr-double"></div>
+
+											<div class="space-6"></div>
+
+											<div class="center">
+												<a href="__URL__/personal" class="btn btn-sm btn-primary">
+													<i class="icon-rss bigger-150 middle"></i>
+													<span class="bigger-110">修改个人信息</span>
+
+													<i class="icon-on-right icon-arrow-right"></i>
+												</a>
+											</div>
+											</foreach>
+										</div>
+									

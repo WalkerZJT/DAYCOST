@@ -1,0 +1,47 @@
+#bg{
+			background:url(http://localhost/licaixitong/Public/images/background-analytics.jpg)
+		}
+		#icon-logo1{
+			background:url(http://localhost/licaixitong/Public/images/icon1.png);
+			background-size:100%;
+			height:50px;
+			width:50px;
+			margin-top:0px;margin-right:10px;
+		}
+		#icon-logo2{
+			background:url(http://localhost/licaixitong/Public/images/Daycost.png);
+			background-size:100%;
+			height:50px;
+			width:100px;
+			background-repeat:no-repeat;
+			margin-top:10px;
+		}
+		body{
+			font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			-webkit-font-smoothing: antialiased;
+			height:550px;
+			font-size:16px;
+			background:url(http://localhost/licaixitong/Public/images/background-analytics.jpg)
+		}
+		.nav-1 {
+			background: rgba(30,30,30,.4);
+			position: fixed;
+			transition: all .7s ease;
+			-webkit-transition: all .7s ease;
+			-moz-transition: all .7s ease;
+			max-width: 1580px;
+			border-radius: 0%;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			height:70px;
+			padding-top:10px;
+			border:0px;
+		}
+		.nav-1:hover{
+			background: rgba(10,10,10,.7);}
+		.btn-one{
+			
+		}
+		.nav-1 a :hover{
+			color:#FFFFFF;}

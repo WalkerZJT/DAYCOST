@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="NoteMoney.Properties.Settings.MytestConnectionString"
+            connectionString="Data Source=zm\mysqlexpress;Initial Catalog=Mytest;Persist Security Info=True;User ID=sa;Password=root"
+            providerName="System.Data.SqlClient" />
+        <add name="NoteMoney.Properties.Settings.missConnectionString"
+            connectionString="Data Source=zm\MYSQLEXPRESS;Initial Catalog=miss;Persist Security Info=True;User ID=sa;Password=root"
+            providerName="System.Data.SqlClient" />
+        <add name="NoteMoney.Properties.Settings.bds258657235_dbConnectionString"
+            connectionString="Data Source=bds258657235.my3w.com;Initial Catalog=bds258657235_db;Persist Security Info=True;User ID=bds258657235;Password=5zhaomeng"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+</configuration>
